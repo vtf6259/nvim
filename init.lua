@@ -1,4 +1,7 @@
 require("config.lazy")
 require("keybinds")
 vim.cmd[[colorscheme tokyonight-storm]]
--- require('nordic').load()
+vim.cmd[[set tabstop=4]]
+vim.cmd[[tnoremap <Esc> <C-\><C-n>]]
+vim.cmd[[set autoindent noexpandtab tabstop=4 shiftwidth=4]]
+-- vim.cmd[[Neotree]]
