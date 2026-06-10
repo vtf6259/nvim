@@ -1,4 +1,5 @@
 require("config.lazy")
+require("config.lsp")
 require("config.neotree")
 require("keybinds")
 vim.cmd[[colorscheme tokyonight-storm]]
